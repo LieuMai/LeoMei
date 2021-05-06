@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Information</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style type="text/css">
+
+		h1 {
+			text-align: center;
+		}
+		.container {
+			width: 100%;
+			display: flex;
+		}
+
+		.right > * {
+			margin-top: 2em;
+		}
+
+		.right {
+			width: 50%;
+		}
+
+		.left {
+			width: 50%;
+			text-align: right;
+			padding-right: 0.5em;
+		}
+
+		.left p {
+			padding: 0.51em 0;
+		}
+		
+	</style>
+</head>
+<body> 	
+		<h1>Personal Information</h1>
+	<form id="form" action="#" class="container">
+		<div class="left">
+			<p>Full Name*:</p>
+			<p>Gender*:</p>
+			<p>Email*:</p>
+			<p>Birthday*:</p>
+			<p>Address*:</p>
+			<p>City*:</p>
+			<p>Region*:</p>
+			<p>ZIP code*:</p>
+			<input type="submit" value="Submit" onclick="validation()">
+		</div>
+
+		<div class="right">
+				<input type="text" id="name" required>
+
+				<div id="gender_box">
+					 
+					<input type="radio" id="male" name="gender" value="male">
+				  	<label for="male">Male</label>
+				  	<input type="radio" id="female" name="gender" value="female">
+				  	<label for="female">Female</label><br>
+				</div>
+
+				 <input type="text" id="email" required> <span id="text"></span><br>
+				 <input type="date" id="birth" placeholder="(mm/dd/yyyy)" required><br>
+				 <input type="text" id="add" required><br>
+				 <input type="text" id="city" required><br>
+				<div>
+					
+					<select>
+						<option>Africa</option>
+						<option>Asia</option>
+						<option>The Caribbean</option>
+						<option>Central America</option>
+						<option>Europe</option>
+						<option>North America</option>
+						<option>Oceania</option>
+						<option>South America</option>
+					</select>
+				</div>		
+				<input type="text" id="zip" required><br>
+				<input type="reset" value="Clear">
+		</div>
+	</form>
+				
+	</div>
+	<script type="text/javascript" src="registration.js"></script>
+</body>
+</html>

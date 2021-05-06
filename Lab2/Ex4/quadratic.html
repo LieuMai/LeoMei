@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giải phương trình bậc hai</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style type="text/css">
+		input {
+			margin: 1em 0;
+		}
+
+		body{
+			min-height: 100vh;
+			align-items: center;
+			justify-content: center;
+		}
+	</style>
+</head>
+<body> 
+
+	<h1>Giải phương trình bậc hai: Ax<sup>2</sup> + Bx + C = 0</h1>
+
+	<div>
+		A = <input type="number" id="a" size="5" required><br>
+		B = <input type="number" id="b" size="5" required><br>
+		C = <input type="number" id="c" size="5" required><br>
+		<br><br>
+		<button id="calcBtn">Giải phương trình</button>
+	</div>
+	
+	<hr>
+	<h1>Giải</h1>
+	
+	<p>Delta = <span id="delta"></span></p>
+	<p><span id="output_text"></span></p>
+	<p>x<sub>1</sub> = <span id="x1"></span></p>
+	<p>x<sub>2</sub> = <span id="x2"></span></p>
+	
+	
+	
+
+	<script type="text/javascript" src="quadratic.js"></script>
+</body>
+</html>

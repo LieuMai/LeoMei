@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #245F5F;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+	font-family: "Playfair Display";
+	color: #009097;
+}
+
+
+h1, h2, h3 {
+	font-weight: bold;
+	font-family: "Playfair Display";
+	margin: 5px;
+}
+
+ul {
+	padding-left: 10px;
+	margin: 2px 10px 2px 5px;
+}
+
+.welcome p {
+	float: right;
+	margin: 5px;
+	font-style: italic;
+}
+
+/* SEARCH FORM */
+
+.search-form {
+
+}
+
+.s-entry {
+	margin: 2rem;
+}
+
+.s-title {
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: #2e3131;
+}
+
+.s-subtitle {
+	font-weight: 600;
+}
+
+.s-tomtat {
+	font-size: 1.2rem;
+	color:#67809f;
+}
+
+.bhat-tloai {
+	color: #2e3131;
+	font-size: 1.1rem;
+	font-style: italic;
+}
+
+
+/* ARTICLES */
+
+.article {
+	border: 4px solid #c2e9e9;
+	border-radius: 15px;
+	background-color: #F0F8FF;
+	padding: .5em 1em;
+	margin: 1em;
+	font-size: 1.4rem;
+}
+
+.row {
+	display: flex;
+}
+
+.square {
+    flex: 30%;
+    margin: .5em .5em 0;
+}
+
+.summary {
+	flex: 70%;
+	text-align: justify;
+	margin: .5em 0 0;
+	line-height: 1.6rem;
+}
+
+.article .date {
+	width: 4.8em;
+	font-size: 1.5rem;
+	border-bottom: 2px dashed #c2e9e9;
+	display: inline-block;
+}
+
+.square img {
+	height: 150px;
+    width: 150px;
+	object-fit: cover;
+}
+
+/* ADD FORM */
+
+.addform-list {
+	margin: 2rem;
+}
+
+/* FOOTER */
+
+footer p {
+	margin: .5em 0 0;
+}

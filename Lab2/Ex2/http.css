@@ -1,0 +1,32 @@
+.bg {
+	align-items: center;
+}
+
+.container {
+	width: 600px;
+	background-color: lightyellow;
+	border: 3px	solid brown;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.container h1 {
+	margin: 1em 2em;
+	font-size: 2.5em;
+}
+
+img {
+	border: 5px inset orange;
+	width: 500px;
+	display: block;
+	margin: 20px auto;
+}
+
+.article {
+	text-align: justify;
+	height: 600px;
+	width: 500px;
+	font-size: 1.5em;
+	overflow: scroll;
+	margin: 20px auto;
+}

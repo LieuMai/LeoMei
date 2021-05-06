@@ -1,0 +1,62 @@
+		.container {
+			margin: 0 20em;
+			font-family: Playfair Display;
+			display: flex; 
+			background: #f8f9f9;
+		}
+
+		.sidebar {
+			width: 20%;
+			background: #3b4151;
+			color: #cbccd2;
+			text-align: right;
+			padding: 0 2em;
+		}
+
+		.sidebar img {
+			border-radius: 50%;
+			width: 50%;
+			margin: 4em;
+		}
+
+		.mainpage {
+			width: 80%;
+			text-align: justify;
+			padding-bottom: 2em;
+		}
+
+		.jumbotron {
+			background: #cdccd1;
+			text-transform: uppercase;
+			font-size: 2em;
+			font-variant: small-caps;
+			text-align: center;
+            border: 1px solid #cdccd1;
+		}
+
+		.jumbotron .line {
+			width: 50%;
+			border: 1px solid #3b4151;
+			margin: -20px auto;
+		}
+
+		section {
+			margin: 0 4em;
+			font-size: 1.5em;
+		}
+
+		section	.timeline {
+			text-align: right;
+			color: #4c4c52;
+			padding-right: 1.5em;
+			column-width: 20em;
+		}
+
+		section b {
+			text-transform: capitalize;
+			color: #3b4251;
+		}
+
+		h2 {
+			text-transform: capitalize;
+		}

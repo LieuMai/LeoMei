@@ -1,0 +1,68 @@
+/* define your CSS here */
+.bg {
+	background-image: url(media/bg.jpg);
+	align-items: center;
+}
+
+.container {
+	width: 50%;
+	border: 10px solid white;
+	margin: 0 auto;
+	background: white;
+}
+
+.header {
+	width: 100%;
+	background-color: #a8f0f0;
+	text-align: right;
+}
+
+.mainpage {
+	width: 100%;
+	display: flex;
+	background-image: url(media/bg-content.jpg);
+}
+
+.linkbox {
+	width: 20%;
+	height: 10em;
+	margin: 2em 0 2em 2em;
+	border-radius: 15px;
+	border: 2px solid #E9967A;
+	background-color: #FFE4C4;
+	padding: 1em;
+}
+
+.linkbox ul li::before {
+	color: #E9967A;
+	padding: 1em;
+}
+
+section {
+	width: 70%;
+	margin: 2em;
+}
+
+.article {
+	border: 4px solid #c2e9e9;
+	border-radius: 15px;
+	background-color: #F0F8FF;
+	padding: 1.5em;
+	font-size: 1.5em;
+}
+
+.article img {
+	float: right;
+	width: 40%;
+}
+
+.article .date {
+	border-bottom: 2px dashed cyan;
+	width: 4em;
+	display: inline-block;
+}
+
+footer {
+	margin-left: 30em;
+	font-style: italic;
+}

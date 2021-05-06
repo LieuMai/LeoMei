@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 50%;
+	margin: 2rem auto;
+	border: 2px solid gray;
+	border-radius: 20px;
+	padding: 1em 4em;
+}
+
+.left {
+	text-align: right;
+	line-height: 1.5rem;
+}
+
+.right {
+	line-height: 1.5rem;
+}

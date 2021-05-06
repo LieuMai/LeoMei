@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kết quả học tập</title>
+	<style type="text/css">
+		*{
+			font-family: 'Merriweather', serif;
+		}
+
+		.navbar li{
+			list-style: none;
+			display: inline-block;
+			padding-right: 2em;
+		}
+
+		.container {
+			width: 50%;
+			margin: 0 auto;
+		}
+
+		h1, h2 {
+			font-style: bold;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+		table {
+			width: 800px;
+			margin: 0 auto;
+			text-align: center;
+			border: 2px solid black;
+			border-collapse: collapse;
+		}
+
+		th {
+			background: lightgray;
+		}
+
+		table, th, td {
+			border: 1px solid black;
+		}
+
+		.table-head {
+			background-color: orange;
+			text-align: center;
+			font-style: bold;
+		}
+
+		.table-foot {
+			background: lightgray;
+		}
+
+		.tenhocphan {
+			text-align: left;
+		}
+
+		.ul-top {
+			list-style: circle;
+		}
+
+		.ul-bottom {
+			font-style: italic;
+		}
+
+		footer p {
+		    color: gray;
+		    font-style: italic;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<ul class="navbar">
+			<li><a href="mei.html">Trang chủ</a></li>
+			<li><a href="cv.html">Curriculum Vitae</a></li>
+		</ul>
+
+		<h1>kết quả học tập</h1>
+		<ul class="ul-top">
+			<li><b>Họ và tên: </b>Liêu Phúc mai</li>
+			<li><b>Ngày sinh: </b>24/07/2000</li>
+			<li><b>Ngành học: </b>Công nghệ thông tin</li>
+			<li><b>Khóa học: </b>44</li>
+			<li><b>Năm bắt đầu: </b>2018</li>
+			<li><b>Hệ đào tạo: </b> Chính qui</li>
+		</ul>
+		
+		<hr>
+		<h2>bảng điểm học tập</h2>
+		<table>
+			<tr>
+				<td class="table-head" colspan="6">Học kỳ 1 - Năm học 2020-2021</td>
+			</tr>
+			<tr>
+				<th rowspan="2">STT</th>
+				<th rowspan="2">Mã HP</th>
+				<th rowspan="2">Tên học phần</th>
+				<th rowspan="2">Số TC</th>
+				<th colspan="2" scope="colgroup">Điểm học phần</th>
+			</tr>
+			<tr>
+				<th scope="col">Thang 10</th>
+				<th scope="col">Điểm số</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>CT114</td>
+				<td class="tenhocphan">Lập trình Hướng đối tượng Java</td>
+				<td>3</td>
+				<td>10.0</td>
+				<td>A</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>CT107</td>
+				<td class="tenhocphan">Hệ điều hành</td>
+				<td>3</td>
+				<td>9.0</td>
+				<td>A</td>
+			</tr>
+			<tr>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+			</tr>
+			<tr>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+			</tr>
+			<tr class="table-foot">
+				<td colspan="4"><i>Điểm trung bình học kỳ</i></td>
+				<th>8.9</th>
+				<th>A</th>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<table>
+			<tr>
+				<td class="table-head" colspan="6">Học kỳ 2 - Năm học 2020-2021</td>
+			</tr>
+			<tr>
+				<th rowspan="2">STT</th>
+				<th rowspan="2">Mã HP</th>
+				<th rowspan="2">Tên học phần</th>
+				<th rowspan="2">Số TC</th>
+				<th colspan="2" scope="colgroup">Điểm học phần</th>
+			</tr>
+			<tr>
+				<th scope="col">Thang 10</th>
+				<th scope="col">Điểm số</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>CT114</td>
+				<td class="tenhocphan">Lập trình Hướng đối tượng Java</td>
+				<td>3</td>
+				<td>10.0</td>
+				<td>A</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>CT107</td>
+				<td class="tenhocphan">Hệ điều hành</td>
+				<td>3</td>
+				<td>9.0</td>
+				<td>A</td>
+			</tr>
+			<tr>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+			</tr>
+			<tr>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+			</tr>
+			<tr class="table-foot">
+				<td colspan="4"><i>Điểm trung bình học kỳ</i></td>
+				<th>8.7</th>
+				<th>A</th>
+			</tr>
+		</table>
+
+		<ul class="ul-bottom">
+			<li>Tổng số tín chỉ tích lũy: <b>80</b></li>
+			<li>Tổng số môn học tích lũy: <b>30</b></li>
+			<li>Điểm trung bình tích lũy: <b>9.0 (A)</b></li>
+			<li>Số môn học còn nợ: <b>Không</b></li>
+			<li>Số tín chỉ còn nợ: <b>Không</b></li>
+			<li>Điểm tốt nghiệp: <b>Chưa có</b></li>
+		</ul>
+
+		<hr>
+		<footer>
+		    <p>Last updated: 4/2021</p>
+		</footer>
+
+	</div>
+</body>
+</html>

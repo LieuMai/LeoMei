@@ -1,0 +1,59 @@
+/* define your CSS here */
+.bg {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	align-items: center;
+}
+
+.container {
+	width: 60%;
+	border: 10px solid white;
+	margin: 0 auto;
+	background: white;
+}
+
+.header {
+	width: 100%;
+	background-color: #a8f0f0;
+	text-align: right;
+}
+
+.welcome {
+	background: #ffebcd;
+	height: 25px;
+	padding: 5px;
+}
+
+.main-content {
+	width: 100%;
+	display: flex;
+	background: linear-gradient(to top right, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.linkbox {
+	width: 20%;
+	height: 20%;
+	margin: 1em;
+	margin-right: 0;
+	border-radius: 15px;
+	border: 2px solid #E9967A;
+	background-color: #FFE4C4;
+	padding: 1em;
+}
+
+.linkbox ul li::before {
+	color: #E9967A;
+	padding: 1em;
+}
+
+
+#showform {
+	width: 80%;
+	margin: 1em;
+}
+
+footer {
+	width: 9.8%;
+	margin: .5rem auto;
+	font-style: italic;
+}
